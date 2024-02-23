@@ -33,11 +33,11 @@ To run this continously I have it running in a screen on a raspberry pi that run
 
 The relevant Modbus registers are: 
 
-74 - PV excess power
-78 - PV total power
-82 - Home consumption
-84 - Battery power
-86 - Battery soc
+- 74 - PV excess power
+- 78 - PV total power
+- 82 - Home consumption
+- 84 - Battery power
+- 86 - Battery soc
 
 If only 74/78 are reported a simple UI is shown only listing the PV power. If Battery and home is reported the UI shows all data in a nice graph as shown above. 
 
