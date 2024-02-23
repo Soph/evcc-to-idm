@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mqtt (0.6.0)
+    rmodbus (1.3.3)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  mqtt
+  rmodbus
+
+BUNDLED WITH
+   2.3.7
