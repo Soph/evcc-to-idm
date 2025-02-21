@@ -4,7 +4,11 @@ This is a small script that can be run to forward PV related data from [evcc](ht
 
 ![Screenshot of the IDM Navigator Pro overview showing PV data](docs/ScreenshotIDM.png)
 
-The official Modbus documentation only lists address 74 (PV excess) and 78 (PV total). But it also describes that Smartfox is able to send more data via Modbus. Some searching on GitHub for example [ipump-control](https://github.com/ThomasRgbg/ipump-control) and trying lead to finding the other addresses. 
+The official Modbus documentation only lists address 74 (PV excess) and 78 (PV total). But it also describes that Smartfox is able to send more data via Modbus. Some searching on GitHub for example [ipump-control](https://github.com/ThomasRgbg/ipump-control) and trying lead to finding the other addresses.
+
+There is now an additional document listing all Ports used: https://www.idm-energie.at/wp-content/uploads/2021/04/PV_Nutzung_GLT-Smartfox.pdf
+
+<img width="1170" alt="image" src="https://github.com/user-attachments/assets/1abe74e8-d33b-4182-9414-944d880012fc" />
 
 ## Preconditions
 
