@@ -37,6 +37,10 @@ client.get('evcc/site/#') do |topic, message|
     power = message.to_f
     puts "#{topic}: #{message}"
     send_modbus(74, power / 1000.0 * -1.0)
-  end
+  elsif topic == 'evcc/site/grid/power'
+    power = message.to_f
+    puts "#{topic}: #{message}"
+    send_modbus(74, power / 1000.0 * -1.0)
+  end    
 end
 
